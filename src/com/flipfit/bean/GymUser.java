@@ -6,7 +6,7 @@ public class GymUser extends Gym {
     public String GymUserRole;
     public String GymUserEmail;
     public String GymUserPassword;
-    public int Phoneno;
+    public int PhoneNo;
 
     public int getGymUserId() {
         return GymUserId;
@@ -49,10 +49,10 @@ public class GymUser extends Gym {
     }
 
     public int getPhoneno() {
-        return Phoneno;
+        return PhoneNo;
     }
 
     public void setPhoneno(int phoneno) {
-        Phoneno = phoneno;
+        PhoneNo = phoneno;
     }
 }

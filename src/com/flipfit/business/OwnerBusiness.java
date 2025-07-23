@@ -32,5 +32,10 @@ public class OwnerBusiness
         return true;
     }
 
+    public boolean loginGymOwner(String userName, String password) {
+        // Dummy login logic
+        return userName.equals("owner") && password.equals("password");
+    }
+
 
 }
